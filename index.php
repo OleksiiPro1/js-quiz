@@ -233,9 +233,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isCorrect) score++;
         if (currentQuestionIndex < questions.length - 1) {
             currentQuestionIndex++;
-            setTimeout(loadQuestion, 3000); // Wait for 3 seconds before loading next question
+            setTimeout(loadQuestion, 2500); // Wait for 3 seconds before loading next question
         } else {
-            setTimeout(completeQuiz, 3000); // Wait for 3 seconds before showing the quiz completion message
+            setTimeout(completeQuiz, 2500); // Wait for 3 seconds before showing the quiz completion message
         }
     }
 
